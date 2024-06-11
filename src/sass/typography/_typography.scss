@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'myDefaultFont';
+  src: url(./fonts/Helvetica.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'myBoldFont';
+  src: url(./fonts/Helvetica-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'myBoldOblique';
+  src: url(./fonts/Helvetica-BoldOblique.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'myLightFont';
+  src: url(./fonts/helvetica-light-587ebe5a59211.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'myObliqueFont';
+  src: url(./fonts/Helvetica-Oblique.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'myRoundedBoldFont';
+  src: url(./fonts/helvetica-rounded-bold-5871d05ead8de.woff) format('woff');
+}
+
+.section__left p {
+  font-family: $myLightFont;
+  display: block;
+  font-size: 2.75rem;
+  line-height: 38px;
+  font-weight: 100;
+}
+
+.section__left-h1 {
+  font-family: 'myLightFont';
+  color: #31667d;
+  font-size: 32px;
+  line-height: 42px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+.section__left__introtext,
+p.section__left__introtext {
+  font-family: $myLightFont;
+  display: block;
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 100;
+}
+
+.section__right {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+}
+
+.section__right p {
+  font-size: 2rem;
+  line-height: 1.5em;
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.generalContent__yellow h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-family: $myBoldFont;
+  line-height: 3rem;
+  margin-bottom: 30px;
+}
+
+.generalContent__yellow p {
+  font-size: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.blueheading {
+  color: #31667d;
+  font-size: 32px;
+  margin: 20px auto;
+  font-family: 'Roboto', sans-serif, Arial, sans-serif;
+  font-weight: 100;
+}
+
+.blue {
+  width: 100%;
+  max-width: 1500px;
+  color: #fff;
+  background-color: #31667d;
+  box-shadow: inset 1px 1px 1px #000;
+  margin: 50px auto;
+  font-family: $myLightFont;
+  text-align: center;
+  padding: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue__title {
+  font-size: 2.5rem;
+  line-height: 2em;
+  margin: 20px 0px;
+  width: 1500px;
+  max-width: 80%;
+  text-align: center;
+}

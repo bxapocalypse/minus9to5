@@ -1,0 +1,47 @@
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// MEDIA QUERY MANAGER
+/*
+0 - 600PX: PHONE
+600 - 900PX: TABLET PORTRAIT
+900 - 1200PX: TABLET LANDSCAPE
+[1200 - 1800] IS WHERE OUR NORMAL STYLES APPLY
+1800PX + : BIG DESKTOP
+*/
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == bigDesktop {
+    @media (max-width: 85em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == desktop {
+    @media (max-width: 75em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == tabLand {
+    @media (max-width: 56.25em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == tabPort {
+    @media (max-width: 50em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == phone {
+    @media (max-width: 30em) {
+      @content;
+    }
+  }
+}

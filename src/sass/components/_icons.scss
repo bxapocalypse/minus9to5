@@ -1,0 +1,55 @@
+.homeIcons {
+  width: 60%;
+  max-width: 1200px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin: 60px auto 0px;
+}
+
+.homeIcons .icons__box {
+  width: 32%;
+  background-color: #d5f2f9;
+  border-top: 0.8em #12869f solid;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  box-shadow: 0.3em 0.3em 0.3em #999;
+}
+
+.homeIcons .icons__box-icon {
+  width: auto;
+  height: 90px;
+  margin: 20px auto 5px;
+}
+
+.homeIcons .icons__box-icon-img {
+  height: 100%;
+}
+
+.homeIcons .icons__box-icon-p {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  display: block;
+  margin: 25px 10px 10px;
+}
+
+.homeIcons .icons__box-icon-btn {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  background-color: #d5f2f9;
+  border: 0.2em #12869f solid;
+  margin: 10px auto;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.homeIcons .icons__box-icon-btn a {
+  color: #000;
+  text-decoration: none;
+}

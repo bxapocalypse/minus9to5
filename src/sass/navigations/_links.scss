@@ -1,0 +1,11 @@
+.skip__links__link {
+  background-color: #1f7f9b;
+  color: #ffffff;
+  font-weight: 700;
+  left: 1%;
+  padding: 1em;
+  position: absolute;
+  transform: translateY(-120%);
+  transition: transform 0.3s;
+  z-index: 1;
+}

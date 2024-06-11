@@ -1,0 +1,25 @@
+/*Video*/
+.loop-container {
+  width: 100%;
+}
+
+#home-hero-video {
+  width: 100%;
+}
+
+.loop-controls {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 10% !important;
+  top: auto;
+  z-index: 2;
+  left: 50px;
+  border: 1px #ffffff solid;
+}
+
+.loop-controls-pause {
+  background: transparent
+    url(https://www.evms.edu/media/evms_public/content/style_assets/refresh_2018_style_assets/images/pauseButton.svg)
+    no-repeat center;
+}

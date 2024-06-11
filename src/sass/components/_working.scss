@@ -1,0 +1,67 @@
+.working {
+  width: 70%;
+  max-width: 1400px;
+  height: auto;
+  margin: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.working__box {
+  width: 28%;
+  height: 190px;
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.working__box-txt {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 90px 20px;
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  font-family: $myRoundedBoldFont;
+  font-size: 2rem;
+  transition: all 0.5s;
+}
+
+.working__box-txt a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.working__box-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 8;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: background-color 0.8s ease-out;
+  -moz-transition: background-color 0.8s ease-out;
+  -o-transition: background-color 0.8s ease-out;
+  transition: background-color 0.8s ease-out;
+}
+
+.working__box img {
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  transition: all 0.5s;
+  object-fit: cover;
+}
+
+/* Add this to your CSS file */
+.working__box-img {
+  transition: transform 0.3s ease;
+}
+
+.working__box-img.hovered {
+  transform: scale(1.1); /* Example animation: scaling up */
+}

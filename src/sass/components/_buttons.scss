@@ -1,0 +1,138 @@
+.btn--close--sm,
+.j-overlay .j-close {
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: #ffffff;
+  border: 1px solid #1f7f9b;
+  border-radius: 5px;
+  color: #1f7f9b;
+}
+.fa-brands,
+.fab {
+  font-weight: 400;
+}
+
+.fa-youtube:before {
+  content: '\f167';
+}
+
+.sr-only {
+  border: none;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.fa-magnifying-glass:before,
+.fa-search:before {
+  background-color: #000000;
+  border: none;
+}
+
+.search-bar__button {
+  border: 0;
+  background-color: #000000;
+}
+
+.btn--close--sm,
+.j-overlay .j-close {
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.btnContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 60px auto 0px;
+}
+
+.btnContainer__one {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bigtext-ctr {
+  color: #000;
+  font-size: 1.75em;
+  line-height: 1.5em;
+  display: inline-block;
+  width: 100%;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.btnContainer .btnContainer__one .btnContainer__btns {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 2em 0;
+}
+
+.btnContainer .btnContainer__one .btnContainer__btns a,
+.btnContainer .btnContainer__two .btnContainer__btns a,
+.btnContainer .btnContainer__inner .btn-desc-container,
+.btnContainer .btnContainer__three .btnContainer__btns .btn-desc-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btnContainer__txt {
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnContainer__txt p {
+  display: block;
+  margin: 10px 0px;
+  width: 90%;
+  text-align: center;
+}
+
+.btnContainer .btnContainer__one .btnContainer__btns a,
+.btnContainer .btnContainer__two .btnContainer__btns a,
+.btnContainer .btnContainer__three .btnContainer__btns a,
+.btnContainer .btnContainer__inner .btnContainer__btns a {
+  width: 90%;
+  display: inline-block;
+  padding: 16px;
+  margin: auto 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+  background-color: #f2d39e;
+  border: 3px #e6a93e solid;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.btn__blue {
+  display: inline-block;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #31667d;
+  border: 0.2em #e6a93e solid;
+  margin: 1em auto;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: all 0.5s;
+}

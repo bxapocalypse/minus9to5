@@ -1,0 +1,27 @@
+.j-text .juicer-feed .j-meta a {
+    color: #31667D !important;
+}
+
+.juicerIframe {
+ width:100%;
+  max-width:1500px;
+  height: 1000px;
+}
+
+@media only screen and (max-width: 1500px) {
+ .juicerIframe {
+    max-width:100%;
+   height: 1000px;
+  } 
+}
+
+
+@media only screen and (max-width: 1000px) {
+ .juicerIframe {
+   height: 500px;
+  } 
+}
+
+
+
+
